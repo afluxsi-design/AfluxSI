@@ -1,0 +1,5 @@
+#https://afluxsi.com/robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://afluxsi.com/sitemap.xml
+
