@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# 🌐 AfluxSI — Plataforma Web Oficial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AfluxSI** es una empresa panameña especializada en automatización de procesos empresariales usando **n8n**, **IA** y flujos personalizados para PYMEs.  
+Esta web es el sitio oficial y punto de entrada al ecosistema AfluxSI.com, construido con **React**, **TypeScript**, **TailwindCSS** y desplegado en **GitHub Pages + Cloudflare**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧱 Tecnologías principales
+
+| Categoría | Tecnología |
+|------------|-------------|
+| Framework Frontend | React 19 (CRA) |
+| Lenguaje | TypeScript |
+| Estilos | Tailwind CSS |
+| Construcción | react-scripts (CRA) |
+| Hosting | GitHub Pages (`gh-pages` branch) |
+| CDN / SSL / DNS | Cloudflare |
+| Gestión de versión | Git + GitHub |
+
+---
+
+## ⚙️ Scripts disponibles
+
+En el directorio del proyecto, puedes ejecutar:
 
 ### `npm start`
+Ejecuta la app en modo desarrollo.  
+Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El sitio se recargará automáticamente cuando edites archivos.  
+También verás errores de lint en la consola.
 
 ### `npm run build`
+Crea la aplicación para producción en la carpeta `build`.  
+Optimiza React para el mejor rendimiento posible.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm run deploy`
+Compila y publica el sitio automáticamente en la rama `gh-pages`.  
+Usa el paquete [`gh-pages`](https://github.com/tschaub/gh-pages) para subir la versión estática a GitHub Pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🗂️ Estructura del proyecto
